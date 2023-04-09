@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+}
+.header img {
+    width: 100%;
+    height: 100%;
+}
+header .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .container h1 {
+    margin: 15px 0;
+}
+header .container h1 a {
+    font-size: 33px;
+    font-family: Poppins;
+    color: #5FCF80;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+header .container .right {
+    display: flex;
+    align-items: center;
+}
+header .container .right button {
+    width: 135px;
+    height: 40px;
+    background-color: rgb(95, 207, 128);
+    opacity: 0.9;
+    border-radius: 50px;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    font-family: Poppins;
+    cursor: pointer;
+    transition: 0.3s;
+}
+header .container .right button:hover {
+    opacity: 1;
+}
+header .container .right ul {
+    display: flex;
+    list-style: none;
+    margin-right: 25px;
+}
+header .container .right ul li a:hover {
+    color: #5FCF80;
+}
+header .container .right ul .home {
+    color: #5FCF80;
+}
+header .container .right ul li a {
+    font-size: 18px;
+    color: #37423B;
+    font-family: Poppins;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 0 10px 30px;
+    justify-content: space-between;
+}
+header .container .right .hamburger-menu {
+    display: none;
+    margin-right: 10px;
+}
+header .container .right .hamburger-menu i {
+    color: black;
+    font-size: 25px;
+}
+
+@media only screen and (max-width:576px) {
+    .header {
+        width: 100%;
+    }
+    .header img {
+        width: 100%;
+        height: 100%;
+    }
+    header .container .right .hamburger-menu {
+        display: block;
+    }
+    header .container .right ul {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px) {
+    .header {
+        width: 100%;
+    }
+    .header img {
+        width: 100%;
+        height: 100%;
+    }
+    header .container .right .hamburger-menu {
+        display: block;
+    }
+    header .container .right ul {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+    .header {
+        width: 100%;
+    }
+    .header img {
+        width: 100%;
+        height: 100%;
+    }
+    header .container .right .hamburger-menu {
+        display: block;
+    }
+    header .container .right ul {
+        display: none;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1240px) {
+    .header {
+        width: 100%;
+    }
+    .header img {
+        width: 100%;
+        height: 100%;
+    }
+    header .container .right ul li a {
+        font-size: 11px;
+        color: #37423B;
+        font-family: Poppins;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 10px 0 10px 30px;
+    }
+}
