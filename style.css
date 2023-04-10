@@ -9,6 +9,9 @@
     width: 100%;
     height: 100%;
 }
+header {
+    width: 100%;
+}
 header .container {
     width: 90%;
     margin: 0 auto;
@@ -77,6 +80,143 @@ header .container .right .hamburger-menu i {
     color: black;
     font-size: 25px;
 }
+.first {
+    width: 100%;
+    height: 65vh;
+    overflow: hidden;
+    background-image: url(./img/hero-bg.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.first .container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+.first .container .text {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 20%;
+}
+.first .container .text h1 {
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-family: Poppins;
+    line-height: 56px;
+}
+.first .container .text h2 {
+    font-size: 24px;
+    color: rgb(238, 238, 238);
+    font-weight: 500;
+    font-family: Raleway;
+    line-height: 2.5;
+}
+.first .container .text button {
+    width: 165px;
+    height: 46px;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 50px;
+    border: 3px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+.first .container .text button:hover {
+    background-color: #5FCF80;
+    border: none;
+}
+.about {
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+}
+.about .container {
+    width: 90%;
+    margin: 0 auto;
+}
+.about .container .row {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.about .container .row .left {
+    width: 570px;
+    height: 409px;
+}
+.about .container .row .right {
+    width: 570px;
+    height: 409px;
+}
+.about .container .row .left img {
+    width: 100%;
+    height: 100%;
+}
+.about .container .row .right h3 {
+    color: #444444;
+    font-size: 26px;
+    margin: 0 0 8px;
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+}
+.about .container .row .right .type {
+    color: #444444;
+    font-size: 16px;
+    margin: 0 0 16px;
+    font-family: Open Sans, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.about .container .row .right p {
+    color: #444444;
+    font-size: 16px;
+    margin: 0 0 16px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 25px;
+}
+.about .container .row .right ul {
+    list-style: none;
+}
+.about .container .row .right ul li {
+    color: #444444;
+    font-size: 16px;
+    padding: 0 0 10px;
+    font-family: Open Sans, sans-serif;
+}
+.about .container .row .right ul .icontext {
+    line-height: 1.7;
+}
+.about .container .row .right ul li i {
+    color: #5fcf80;
+    font-size: 25px;
+}
+.counter {
+    width: 100%;
+    height: 175px;
+    margin-top: 70px;
+    background-color: #f6f7f6;
+}
+.counter .container {
+}
+.counter .container .row {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 
 @media only screen and (max-width:576px) {
     .header {
@@ -91,6 +231,70 @@ header .container .right .hamburger-menu i {
     }
     header .container .right ul {
         display: none;
+    }
+    .first {
+        width: 100%;
+        height: 80vh;
+        background-image: url(./img/hero-bg.jpg);
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .first .container {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .first .container .text {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 25%;
+    }
+    .first .container .text h1 {
+        font-size: 28px;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        font-family: Poppins;
+        line-height: 35px;
+    }
+    .first .container .text h2 {
+        font-size: 18px;
+        color: rgb(238, 238, 238);
+        font-weight: 500;
+        font-family: Raleway;
+        margin-top: 5px;
+    }
+    .about {
+        width: 100%;
+        height: 530px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .about .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .about .container .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .about .container .row .left {
+        width: 570px;
+        height: 409px;
+        margin: 0 auto 50px;
+    }
+    .about .container .row .right {
+        width: 570px;
+        height: 409px;
+        margin: 0 auto;
+    }
+    .about .container .row .left img {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -108,6 +312,69 @@ header .container .right .hamburger-menu i {
     header .container .right ul {
         display: none;
     }
+    .first {
+        width: 100%;
+        height: 80vh;
+        background-image: url(./img/hero-bg.jpg);
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .first .container {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .first .container .text {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    .first .container .text h1 {
+        font-size: 28px;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        font-family: Poppins;
+        line-height: 35px;
+    }
+    .first .container .text h2 {
+        font-size: 18px;
+        color: rgb(238, 238, 238);
+        font-weight: 500;
+        font-family: Raleway;
+        line-height: 2.5;
+    }
+    .about {
+        width: 100%;
+        height: 530px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .about .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .about .container .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .about .container .row .left {
+        width: 570px;
+        height: 409px;
+        margin: 0 auto 50px;
+    }
+    .about .container .row .right {
+        width: 570px;
+        height: 409px;
+        margin: 0 auto;
+    }
+    .about .container .row .left img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media only screen and (min-width:768px) and (max-width:992px) {
@@ -123,6 +390,56 @@ header .container .right .hamburger-menu i {
     }
     header .container .right ul {
         display: none;
+    }
+    .first {
+        width: 100%;
+        height: 60vh;
+        background-image: url(./img/hero-bg.jpg);
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .first .container {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .first .container .text {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 5%;
+    }
+    .about {
+        width: 100%;
+        height: 530px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .about .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .about .container .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .about .container .row .left {
+        width: 570px;
+        height: 409px;
+        margin: 0 auto 50px;
+    }
+    .about .container .row .right {
+        width: 570px;
+        height: 409px;
+        margin: 0 auto;
+    }
+    .about .container .row .left img {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -141,5 +458,53 @@ header .container .right .hamburger-menu i {
         text-decoration: none;
         font-weight: 500;
         padding: 10px 0 10px 30px;
+    }
+    .first {
+        width: 100%;
+        height: 60vh;
+        background-image: url(./img/hero-bg.jpg);
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    .first .container {
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .first .container .text {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+    }
+    .about {
+        width: 100%;
+        height: 530px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .about .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .about .container .row {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .about .container .row .left {
+        width: 49%;
+        height: 409px;
+    }
+    .about .container .row .right {
+        width: 49%;
+        height: 409px;
+    }
+    .about .container .row .left img {
+        width: 100%;
+        height: 100%;
     }
 }
