@@ -209,14 +209,138 @@ header .container .right .hamburger-menu i {
     background-color: #f6f7f6;
 }
 .counter .container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
 }
 .counter .container .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.counter .container .row .one {
+    width: 285px;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.counter .container .row .one span {
+    color: #5fcf80;
+    font-size: 48px;
+    font-weight: 700;
+    display: block;
+    font-family: Open Sans;
+}
+.counter .container .row .one p {
+    color: #37423b;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Raleway;
+}
+.fourth {
+    width: 100%;
+    height: 551px;
+    margin-top: 70px;
+}
+.fourth .container {
+    width: 90%;
+    height: 100%;
     margin: 0 auto;
+}
+.fourth .container .row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.fourth .container .row .firstcard {
+    width: 330px;
+    height: 431px;
+    background-color: #5fcf80;
+    padding: 30px;
+    border-radius: 10px;
+}
+.fourth .container .row .firstcard h3 {
+    color: #fff;
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family: Raleway;
+}
+.fourth .container .row .firstcard p {
+    font-size: 16px;
+    font-family: Open Sans;
+    margin: 0 0 30px;
+    width: 295px;
+    height: 192px;
+    background-color: #5FCF80;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+.fourth .container .row .firstcard .buttons {
+    width: 164px;
+    height: 38px;
+    background-color: #ffffff33;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin: 55px auto 0 auto;
+}
+.fourth .container .row .firstcard .buttons button {
+    background-color: transparent;
+    font-size: 16px;
+    color: #fff;
+    font-family: Open Sans;
+    border: none;
+}
+.fourth .container .row .firstcard .buttons button i {
+    font-size: 10px;
+}
+.fourth .container .row .cart {
+    width: 200px;
+    height: 290px;
+    background-color: #fff;
+    border: 1px solid #eef0ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 30px;
+    margin-top: 40px;
+}
+.fourth .container .row .cart .icons {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background-color: #ECF9F0;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
 }
-
+.fourth .container .row .cart .icons i {
+    color: #5fcf80;
+    font-size: 32px;
+}
+.fourth .container .row .cart h4 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Raleway;
+    color: #444444;
+    text-align: center;
+}
+.fourth .container .row .cart p {
+    color: #848484;
+    font-size: 15px;
+    font-family: Open Sans;
+    text-align: center;
+}
 
 @media only screen and (max-width:576px) {
     .header {
