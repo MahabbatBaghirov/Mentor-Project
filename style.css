@@ -356,7 +356,6 @@ header .container .right .hamburger-menu i {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    row-gap: 10px;
 }
 .fifth .container .row .box1 {
     width: 260px;
