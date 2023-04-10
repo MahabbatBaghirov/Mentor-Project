@@ -291,6 +291,18 @@ header .container .right .hamburger-menu i {
     justify-content: center;
     border-radius: 50px;
     margin: 55px auto 0 auto;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.fourth .container .row .firstcard .buttons:hover {
+    transition: 0.4s;
+    background-color: white;
+    cursor: pointer;
+}
+.fourth .container .row .firstcard .buttons button:hover {
+    color: green;
+    cursor: pointer;
+    transition: 0.4s;
 }
 .fourth .container .row .firstcard .buttons button {
     background-color: transparent;
